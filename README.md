@@ -16,11 +16,11 @@ Once installed, the script automatically adjusts your CPU's frequency based on t
 
 
 ## Installation
-`curl -sSL https://raw.githubusercontent.com/Freenixi/bestctl/main/install.sh | sudo bash`
+> `curl -sSL https://raw.githubusercontent.com/Freenixi/bestctl/main/install.sh | sudo bash`
 
 ### Prerequisites
-- A Linux system (Debian-based distributions recommended) - `https://www.debian.org/`
-- `cpufrequtils` installed `curl` adn `cpufrequtils` by command - `sudo apt install curl cpufrequtils -y`
+- A Linux system (Debian-based distributions) - *https://www.debian.org/*
+- Installed `curl` and `cpufrequtils` by command - `sudo apt install curl cpufrequtils -y`
 
 
 ## Notes
@@ -29,13 +29,13 @@ Once installed, the script automatically adjusts your CPU's frequency based on t
 
 
 ## Uninstallation
-`sudo systemctl stop bestctl.service`
+> `sudo systemctl stop bestctl.service`
 
-`sudo systemctl disable bestctl.service`
+> `sudo systemctl disable bestctl.service`
 
-`sudo rm /etc/systemd/system/bestctl.service`
+> `sudo rm /etc/systemd/system/bestctl.service`
 
-`sudo rm /etc/bestctl/bestctl.sh`
+> `sudo rm /etc/bestctl/bestctl.sh`
 
 #
-![Alt text](https://github.com/Freenixi/bestctl/blob/main/a-freezepack.jpg)
+![Unlike Best CPU Temp Limiter](https://github.com/Freenixi/bestctl/blob/main/cooling.jpg)
