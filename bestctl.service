@@ -1,0 +1,13 @@
+[Unit]
+Description=Best CPU Temp Limiter
+After=network.target
+
+[Service]
+ExecStart=/etc/bestctl/bestctl.sh
+WorkingDirectory=/etc/bestctl
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
