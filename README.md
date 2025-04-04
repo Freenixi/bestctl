@@ -3,7 +3,7 @@ This project provides a solution to automatically adjust your CPU frequency base
 
 
 ## What It Is Good For
-`bestctl` is ideal for systems that need to run at high performance without overheating, such as small devices like `Raspberry Pi`. By automatically adjusting the CPU frequency based on temperature, it helps:
+`bestctl` is ideal for systems that need to run at high performance without overheating, such as small devices like **Raspberry Pi**. By automatically adjusting the CPU frequency based on temperature, it helps:
 - Extend the lifespan of your device by maintaining a safe operating temperature and preventing overheating.
 
 - Save power and electricity, as lowering the CPU frequency during periods of high temperature reduces energy consumption.
@@ -36,3 +36,6 @@ Once installed, the script automatically adjusts your CPU's frequency based on t
 `sudo rm /etc/systemd/system/bestctl.service`
 
 `sudo rm /etc/bestctl/bestctl.sh`
+
+
+![Alt text](https://github.com/Freenixi/bestctl/blob/main/freeze-pack.png)
