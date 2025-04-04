@@ -38,4 +38,4 @@ Once installed, the script automatically adjusts your CPU's frequency based on t
 `sudo rm /etc/bestctl/bestctl.sh`
 
 #
-![Alt text](https://github.com/Freenixi/bestctl/blob/main/freeze-pack.png)
+![Alt text](https://github.com/Freenixi/bestctl/blob/main/hot-sandwiched.png)
