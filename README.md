@@ -37,5 +37,6 @@ Once installed, the script automatically adjusts your CPU's frequency based on t
 
 > `sudo rm /etc/bestctl/bestctl.sh`
 
-#
+
+## Without Best CPU Temp Limiter
 ![Unlike Best CPU Temp Limiter](https://github.com/Freenixi/bestctl/blob/main/cooling.jpg)
